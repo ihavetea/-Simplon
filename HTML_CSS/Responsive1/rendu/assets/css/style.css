@@ -1,0 +1,99 @@
+/* */
+
+*{margin:0;}
+
+/* FLEXIN */
+.container {display: flex;}
+.row{flex-direction: row;}
+.column{flex-direction: column;}
+
+/* STYLIN */
+li {list-style-type: none; display: inline;}
+.hyde{display:none;}
+.jekyll{height: 100%;}
+.switcharoo{display: flex; flex-direction: column;}
+
+/* SPACIN */
+.spacebetween{justify-content: space-between;}
+.spacearound{justify-content: space-around;}
+.textcenter{text-align: center;}
+.centering{justify-content: center; align-items: center;}
+.pad5{padding: 5%;}
+.pad5left{padding-left: 5%;}
+.aicenter{align-items: center;}
+
+/* FONT COLOR */
+.whitetext {color: white;}
+.purpletext {color: #7D7089}
+
+/* BACKGROUND COLOR */
+.black{background-color:black;}
+.slate{background-color: #322F39;}
+.skyblue{background-color:#119FB7;}
+.pink{background-color: #B85F76;}
+.brokenwhite{background-color: #EBEBEB;}
+.purple{background-color:#563369;}
+
+/* FONT SIZES */
+.small{font-size: 1.2em;}
+.medium{font-size: 2em;}
+.large{font-size: 2.5em;}
+.larger{font-size: 3em;}
+.largest{font-size: 5em;}
+
+
+/* THIS IS A MYSTERY */
+body{display: grid; height: 100%;}
+
+/*////////////////////////////////*/
+/* !st section - NAV BAR */
+nav {height:100%;}
+#hamburger {height:100%;width:15%;}
+
+/*////////////////////////////////*/
+/* 2nd section - Blue */
+#blue {height:100%;}
+
+/*////////////////////////////////*/
+/* 3rd Section - Robin Hood */
+#robin {height:100%;}
+.pinkarrow{height: 100%;width: 15%;}
+
+/*////////////////////////////////*/
+/* 4th Section - BIG ASS ARROW */
+#bigassarrow {height:100%; padding: 40%;}
+
+/*////////////////////////////////*/
+/* 5th Section - Bridge */
+#bridge{width: 100%;}
+
+/*////////////////////////////////*/
+/* 6th Section - Lady */
+#lady{width:100%;}
+
+/*////////////////////////////////*/
+/* 7th Section - Article */
+#text{padding: 10%; height: 100%;}
+
+
+
+/*////////////////////////////////*/
+/* SWITCHIN */
+
+@media only screen and (min-width: 980px) {
+	.switcharoo{
+		display: flex;
+		flex-direction: row;
+	}
+	#bigassarrow {height:33%; padding: 13.3%; width:34%;}
+	#bridge{width: 34%;}
+	#lady{width:33%;}
+
+	.jekyll{display: none;}
+	.hyde{display: grid; padding: 5%;}
+}
+
+
+
+/* CLEAN THIS SHIT UP */
+

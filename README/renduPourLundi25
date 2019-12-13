@@ -1,0 +1,120 @@
+FIGMA
+FRAMEBOX
+CACOO
+
+//// FRONT END
+
+I. MAQUETTER UNE APPLICATION
+
+    Communication
+    Sens des priorites, focus
+    Vue d'ensemble, prise de recul
+    Adaptabilite
+    Vitesse
+    Brainstorming
+    Time Management
+
+II. REALISER UNE INTERFACE UTILISATEUR STATIQUE ET ADAPTABLE
+
+    IDE
+    LOGICIEL DE CREATION IMAGE >> Photoshop, Gimp
+    STRUCTURE FICHIERS
+    CONNAISSANCES DES STANDARDS DE L'INDUSTRIE >> Nomination des fichiers, des variables, etc
+    HTML CSS JS
+    MEDIAQUERIES
+    HOSTING >> FTTP (?)
+
+    PATIENCE
+
+
+III. DEV. UNE INTERFACE WEB DYNAMIQUE
+
+    PHP, SQL, APACHE, MANGODB
+    BDD
+
+III. A. DESIGN FONCTIONNEL
+
+CONSIDER PRODUCT GOAL
+    CONSIDER THE CLIENT BASE
+    CONSIDER WHAT THEY WILL DO WITH IT
+    CONSIDER IF THE TOOL IS CLEAR AND PRACTICAL TO USE
+    VALIDATION OF FORMS, INFORM THE CLIENT THAT HIS REQUEST WENT THRU
+    MISTAKE HANDLING
+    IS IT ENGAGING TO USERS
+    USER STORY > Feature requests
+
+III. B. DESIGN GRAPHIQUE
+
+    LOGICIEL DE CREATION IMAGE >> Photoshop, Gimp, suite ADOBE
+    TYPOGRAPHIE
+    CREATIVITY
+    ATTENTION AU DETAIL
+    COLOR THEORY
+    USABILITY
+
+IV. REALISER UNE INTERFACE UTILISATEUR
+
+    USER ADVOCACY
+    PARTICIPATORY DESIGN
+    CROWD SOURCE DESIGN
+    WIREFRAMING
+    VISUAL COMMUNICATION
+    USER OBJECTIVES
+    USER FLOW
+    METRICS AND ANALYTICS
+    
+
+
+
+//// BACK END
+
+V. CREER UNE BASE DE DONNEES
+    
+    Data integrity practice
+    Data models
+    Architectures
+    Administration software
+    Programming language
+        > SQL
+        > PHP
+        >CGI/Perl
+
+        > ORACLE 
+        > APACHE
+        >MySQL
+    Query Analyzer
+    Data Security
+    Tables, columns,rows
+    Server side triggers, stored procedures and functions
+    Keys
+
+
+VI. DEV LES COMPOSANTS d'ACCES AUX DONNEES
+
+    Developper dans un language objet
+    Use libraries 
+    consultation creation et mise a jour 
+    Documenter les composants
+
+
+VII. DEV LA PARTIE BACK END D'UNE APPLI WEB OU MOBILE
+
+    REST/SOAP
+    SQL
+    RUBY ON RAILS
+    PYTHON
+
+    FOR MOBILE > ANDROID > JAVA
+                 iOS > Objective-C
+                 Windows Phone > C#
+
+VIII. ELABORER ET METTRE EN OEUVRE DES COMPOSANTS DANS UNE APPLICATION DE GESTION DE CONTENU OU E-COMMERCE
+
+    COMMUNICATION
+    SOCIAL NETWORK
+    WEBSITE TRAFFIC
+    DATA ANALYCTICS
+    GOOGLE SERVICES 
+    ADS
+    SEO
+    GROWTH HACKING
