@@ -58,29 +58,29 @@ window.onload = function () {
       console.log(i);
       // <article class="article-preview" data-id="1">
       articleElementCreate = document.createElement('article');
-      articleElementCreate.setAttribute('data-id', articleArray[i].getId());
-console.log(articleElementCreate);
+      articleElementCreate.setAttribute('id', articleArray[i].getId());
+      console.log(articleElementCreate);
       document.getElementsByTagName('section')[0].appendChild(articleElementCreate)
     };
 
-    
+
 
 
     for (let i = 0; i < articleArray.length; i++) {
-      
+
       console.log(i);
       let articleElement = document.querySelector('article');
-    //  let articleElement = document.querySelector('[data-id="' + i + '"]');
+      //  let articleElement = document.querySelector('[data-id="' + i + '"]');
       console.log("check " + i);
-      console.log('[data-id="' + i + '"]');
+      console.log('[id="' + i + '"]');
       console.log(articleElement)
 
       ////     <h2>Un super ar      ticle 1</h2>
       const h2 = document.createElement("h2");
       const articleTitle = articleElement.appendChild(h2);
       console.log(articleTitle);
-      console.log(articleArray[0].getTitle()); 
-      articleTitle.textContent = articleArray[i].getTitle(); //////////////////////////////////
+      console.log(articleArray[0].getTitle());
+      articleTitle.textContent = articleArray[i].getTitle();
 
 
       ////     <div class="article-preciew-body">
@@ -118,39 +118,6 @@ console.log(articleElementCreate);
 
 
 
-
-    // ------------------- STEP 2 ---------------------
-    // AFFICHER DANS LA SECTION DU MAIN DE LA PAGE 'home.html' QUI EST LINK A CE SCRIPT LES ARTICLES
-
-    // exemple structure html pour les articles ------------------------>
-    // <article class="article-preview" data-id="1">
-    //     <h2>Un super article 1</h2>
-    //     <div class="article-preciew-body">
-    //         <div class="article-preview-img">
-    //             <img src="http://fauxsite.com/content/medias/img/article1.jpg" alt="miniature article 1">
-    //         </div>
-    //         <div class="article-preview-content">
-    //             <p>Ceci est un texte taper au pif donc ne jugé pas sur l'orthographe général des documents fournis...</p>
-    //         </div>
-    //         <div class="article-preview-tags">
-    //             <p>tag1 tag2 tagada</p>
-    //         </div>
-    //     </div>
-    // </article>
-
-    // exemple code javascript pour la generation des elements html ----------------->
-    // var articleBloc = document.createElement('article');
-    // articleBloc.ClassList.add('article-preview');
-    //articleBloc.setAttribute('data-id', articles[i].getId()) // <---- Dans cette exemple il faut s'imaginer qu'on boucle (for) sur un tableau contenant des 'instances' de la class 'Article'
-    // var articleTitle = document.createElement('h2');
-    // articleTitle.innerText = articles[i].getTitle(); // <---- Dans cette exemple il faut s'imaginer qu'on boucle (for) sur un tableau contenant des 'instances' de la class 'Article'
-    // articleBloc.append(articleTitle);
-    // etc.....
-
-
-
-
-
     // ------------------ STEP 3 -----------------------
     // AU CLICK SUR LA PREVIEW D'UN ARTICLE (l'elements html) REDIRIGER VERS LA PAGE 'article.html' --->
     // L'url devras ressembler à celle ci (le chemin d'accès vers le fichier + un parametre de type GET) :
@@ -158,8 +125,18 @@ console.log(articleElementCreate);
     // --- La valeur du parametre id présent dans l'url doit correspondre a l'article clicker
 
 
+    var artcl = document.querySelectorAll('article')
 
+    for (var n = 0; n < artcl.length; n++) {
 
-
+      var ar = artcl[n];
+      console.log(ar)
+      ar.addEventListener("click", function () {
+        var id = this.id - 1;
+        console.log(ar)
+        console.log("hello");
+        console.log(id);
+      });
+    }
   });
 }
