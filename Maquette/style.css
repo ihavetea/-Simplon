@@ -1,0 +1,72 @@
+/* */
+* {margin: 0; padding: 0;}
+
+/* */
+.flex{display: flex;}
+
+.abs{position: absolute;}
+.fixed{position:fixed}
+
+.row{flex-direction: row;}
+.col{flex-direction: column;}
+
+.jcsa{justify-content: space-around;}
+.jcsb{justify-content: space-between;}
+
+.aic{align-items: center;}
+
+/* */
+
+.h100{height: 100%;}
+.w100{width: 100%;}
+
+.mw100{min-width: 100%;}
+.mh100{min-height: 100%;}
+
+
+
+/* */
+
+.padding5{padding: 5px;}
+
+
+/* */
+
+
+/* */
+
+
+.mh50{min-height: 50%;}
+
+/* BACKGROUND COLOR */
+.bgblack{background-color:#191D20;}
+.bgred{background-color: #CC241D;}
+.bggreen{background-color: #B8BB26;}
+.bgblue{background-color:#458588;}
+.bgyellow{background-color: #D79921;}
+.bgorange{background-color: #D65D0E;}
+.bggrey{background-color: #A89984;}
+.bgwhite{background-color: #FBF1C7;}
+.bgaqua{background-color: #689D6A;}
+
+
+/* FONT SIZES */
+.small{font-size: 1.2em;}
+.medium{font-size: 2em;}
+.large{font-size: 2.5em;}
+.larger{font-size: 3em;}
+.largest{font-size: 5em;}
+
+
+
+
+/* CLEAN THIS SHIT UP */
+
+
+nav {
+  width: 100%;
+  height: 50px;
+  margin: 0%;
+}
+
+
