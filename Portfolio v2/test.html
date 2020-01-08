@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+
+<head>
+
+  <style>
+
+    /* GENERAL SETTINGS -----------------------------------------------------*/
+    * {padding: 0px; margin: 0px;}
+    html, body {height: 100%; width: 100%; background-color: #191D20}
+
+    .flex{display:flex}
+    .row{flex-direction: row;}
+    .column{flex-direction: column;}
+    
+    .textwhite{color: #E1E1E1}
+
+    .border {
+      border-color: red;
+      border-width: 1px;
+      border-style: dotted;
+    }
+
+    /* HEADER MAIN FOOTER ----------------------------------------------------*/
+    header{min-height: 20%; border-bottom: 5px; border-bottom-color: beige;}
+      #logo{width: 20%; min-height: 100%;}
+  
+    main{min-height: 60%;}
+      #navigation{width: 20%; min-height: 100%;}
+  
+    footer{min-height: 20%;}
+
+    /* HEADER MAIN FOOTER ----------------------------------------------------*/
+
+
+  </style>
+
+
+</head>
+
+
+<html>
+
+<!-- HEADER ------------------------------------------------------------->
+<header class="flex border ">
+  <div id="logo" class="border"></div>
+</header>
+
+
+<!-- MAIN ------------------------------------------------------------->
+<main class="flex border">
+  <div id="navigation" class="border"></div>
+</main>
+
+
+
+<!-- FOOTER ------------------------------------------------------------->
+<footer class="border"></footer>
+
+</html>

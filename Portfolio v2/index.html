@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<head>
+
+<!-- STYLE ------------------------------------------------------------------------------------------------------------------------>
+  <style>
+  
+  *{padding: 0px; margin: 0px;}
+
+  html{background-color: #191D20;
+  margin: 5% 15% 5% 15%;
+  position :absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+  }
+
+
+svg{
+  height: 100px;
+  width: 100px;
+}
+
+button{
+  height: 25px;
+  width: 25px;
+}
+
+.border{
+  border-color: red;
+  border-width: 1px;
+  border-style: dotted;
+}
+
+.wihe100{
+  width: 100%;
+  height: 100%;
+}
+
+.absolute{position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right:0px;}
+
+
+.aic{align-items: center;}
+.jcsa{justify-content: space-around;}
+.jcsb{justify-content: space-around;}
+
+.flex{display: flex; position: relative;}
+.row{flex-direction: row;}
+.column{flex-direction: column;}
+
+.textwhite{color:cornsilk}
+
+.minw20{min-width: 20%}
+.minw50{min-width: 50%}
+.minh100{min-height: 100%;}
+  </style>
+
+<!-- JS ------------------------------------------------------------------------------------------------------------------------>
+  <script>
+window.onload = function(e){
+  let button = document.querySelectorAll("button")[0]
+  console.log(e)
+
+
+button.onclick = function(){
+      let a = document.querySelectorAll("input")[0].value
+      let b = document.querySelectorAll("input")[1].value
+      let c = document.querySelectorAll("input")[2].value
+      let but = document.querySelectorAll("button")[0]
+
+      console.log(a)
+      console.log(b)
+      console.log(c)
+
+      }
+    
+
+    }
+
+  </script>
+
+
+</head>
+
+<!-- HTML ------------------------------------------------------------------------------------------------------------------------>
+<html class=" border">
+
+<hr>
+
+<!-- LOGO ------------------------------------------------------------------------------------------------------------------------>
+<div class="flex" style="top: 5%; bottom: 5%; left:5%; height: 20%">
+  <!-- SQUARE 1-->
+  <div class="absolute">
+  <svg><rect class="wihe100"  style="fill:none;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" /></svg>
+  </div>
+  <!-- SQUARE 2-->
+  <div style="position: absolute; top: 10px; left: 10px;">inh100
+    <svg class="wihe100" ><rect width="100" height="100" style="fill:none;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" /></svg>
+  </div>
+  <!-- WSZ 1-->
+  <span class="textwhite absolute" style="left:0px; font-size:xx-large; top: 16%; left: 2.5%;">WSZ</span>
+</div>
+
+<hr>
+
+<!-- MENU & MAIN WINDOW----------------------------------------------------------------------------------------------------------->
+<body class="absolute">
+<div class="absolute flex row jcsa">
+  <div class="minh100 border flex minw20 textwhite">contact</div>
+  <div class="minh100 border flex column minw50">
+    <form class="flex column" action="">
+      <input type="text">
+      <input type="text">
+      <input type="text">
+      <button type="button"></button> 
+      <p id="demo"></p>   
+      
+    </form>
+  </div>
+</div>
+</body>
+
+
+<body>
+  <header>
+
+    
+
+  </header>
+
+  <main>
+
+
+  </main>
+
+
+  <footer>
+
+
+  </footer>
+
+
+
+</body>
+
+
+</html>
